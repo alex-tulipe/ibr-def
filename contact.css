@@ -1,0 +1,213 @@
+/* PAGE CONTACT */
+.contact .title-1 {
+    margin-top: 30px;
+}
+
+.container {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+}
+
+.contact-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+.contact-content .image-3 iframe{
+    margin-bottom: 20px;
+}
+.contact-content-2{
+    margin-bottom: 20px;
+}
+.image-3 img {
+    max-width: 350px;
+    border-radius: 8px;
+    margin-right: 90px;
+}
+
+.contact-content-2 {
+    border: 1px solid black;
+    padding: 30px 60px;
+    margin-left: 40px;
+}
+
+.contact-content-2 img {
+    max-width: 30px;
+    margin-top: 10px;
+}
+
+.contact-content-2 .facebook img {
+    margin-left: 50px;
+}
+
+.contact-content-2 h4 {
+    color: #22305E;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.contact-content-2 p {
+    margin-top: 30px;
+    color: #22305E;
+    font-weight: 600;
+}
+
+
+/* FORMULAIRE DE CONTACT */
+form {
+    background-color: #c8c8c8;
+    padding: 40px 10px;
+    display: block;
+    position: relative;
+}
+
+form .form-content-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+/* FORM-LABEL */
+form label {
+    font-family: 'Fjalla One', sans-serif;
+    color: #22305E;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+form .label-1 {
+    margin-bottom: 36px;
+    margin-top: 5px;
+}
+
+form .label-2 {
+    margin-bottom: 35px;
+}
+
+/* FORM-INPUT */
+form input {
+    width: 380px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #22305E;
+    margin-bottom: 20px;
+}
+
+/* FORM-MESSAGE */
+form textarea {
+    border-radius: 3px;
+    border: 1px solid #22305E;
+    margin-top: 5px;
+    width: 380px;
+}
+
+/* BOUTON ENVOYER */
+.envoi {
+    color: white;
+    background-color: #222;
+    border: none;
+    padding: 12px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-content {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .contact-content iframe {
+        width: 100%;
+    }
+
+    .contact-content-2 {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .contact-content-2 img {
+        margin-left: 0 !important;
+    }
+
+    .form-box-1 {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+    }
+
+    .box-2 {
+        -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+    }
+}
+
+
+/* 
+@media screen and (max-width: 415px) {
+    .contact-content .image-3 iframe {
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    form input {
+        width: 250px;
+    }
+
+    form textarea {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .contact-content .image-3 iframe {
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        background-color: #c8c8c8;
+    }
+
+    form input {
+        width: 250px;
+    }
+
+    form textarea {
+        width: 250px;
+    }
+
+    .envoi {
+        width: 50%;
+    }
+} 

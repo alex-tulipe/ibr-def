@@ -1,0 +1,248 @@
+/* CONFIGURATION PC  */
+.hero .config-titre-page {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.photo .image-config-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.photo legend {
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+/* TABLEAU */
+
+/* TITRE TABLEAU */
+.titre-config {
+    background: rgb(224, 224, 224);
+    height: 60px;
+    width: 60%;
+    border: 1px solid rgb(54, 54, 54);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titre-config h3 {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.tableau .titre-intitule h3 {
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-config {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid rgb(19, 19, 19);
+    width: 60%;
+    padding: 10px;
+}
+
+.content-config h5 {
+    width: 450px;
+    margin-left: 60px;
+}
+
+#gris {
+    background-color: rgb(180, 179, 179);
+}
+
+#dernier-tab {
+    margin-bottom: 50px;
+}
+
+/* MONTAGE PC */
+.montage-pc {
+    background-color: #e9e9e9;
+    padding-bottom: 80px;
+}
+
+.montage-pc .title {
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.montage-pc legend {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.montage-pc .montage legend {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.montage-pc img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.montage-pc-1 img,
+.montage-pc-2 img {
+    margin-right: 40px;
+    border-radius: 8px;
+}
+
+.montage-pc-1,
+.montage-pc-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.montage-pc-1 {
+    margin-bottom: 50px;
+}
+
+.infographie h2{
+    text-align: center;
+}
+.infographie img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width : 875px){
+    .infographie img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .infographie h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width : 415px) {
+    .photo legend {
+        font-size: 12px;
+    }
+
+    .image-config img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content-config {
+        width: 100%;
+    }
+
+    .content-config p {
+        width: 100%;
+    }
+
+    .titre-config {
+        width: 100%;
+    }
+
+    .titre-config h3 {
+        font-size: 20px;
+    }
+
+    .montage-pc img {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .montage-1,
+    .montage-3 legend {
+        margin-bottom: 20px;
+    }
+
+    .content-config h5 {
+
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+    .hero .config-titre-page {
+        margin-top: -40px;
+        font-size: 18px;
+    }
+
+    .photo legend {
+        font-size: 12px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .image-config img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .photo h2,
+    .montage-pc h2 {
+        font-size: 25px;
+    }
+
+    .content-config h5 {
+        margin-left: 0;
+    }
+
+    .montage-pc img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .montage-pc legend {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .content-config {
+        width: 85%;
+    }
+
+    .titre-config {
+        width: 85%;
+    }
+}
