@@ -44,7 +44,9 @@ button {
     padding: 12px 25px;
     font-size: 20px;
 }
-
+.construction{
+    color: rgb(189, 2, 2);
+}
 /* NAVBAR */
 
 header {
@@ -408,7 +410,7 @@ nav .icon {
     background: #222222;
     color: white;
     margin-top: 40px; 
-    margin-bottom: 50px;   
+    margin-bottom: 20px;   
 }
 .newsletter .content .box-2 label{
     font-size: 20px;
@@ -425,8 +427,34 @@ nav .icon {
     font-size: 16px; 
 }
 
-/* FOOTER */
-footer {
+/* RGPD */
+
+.rgpd .rgpd-texte{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    line-height: 1.5em;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.rgpd .rgpd-texte-2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    line-height: 1.5em;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+  /* FOOTER */
+
+footer{
     width: 100%;
     background: rgb(27, 27, 27);
     color: white;
